@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Fira Code', Courier, monospace;
+    color: #ECEFF4;
+    line-height: 1.5;
+    margin: 0;
+}
+
+p {
+    color: #D8DEE9;
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+div#logo {
+    vertical-align: middle;
+}
+
+nav {
+    background-color: #ECEFF4;
+}
+
+div#navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div#navigation div {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: #2E3440;
+}
+
+div#navigation div a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.25s;
+}
+
+div#navigation div a:hover {
+    color: lightslategray;
+    transition: color 0.25s;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px 32px;
+}
+
+header {
+    background: url("/img/binarybug.svg"), linear-gradient(to left, #7867CF	, #FC992F)
+}
+
+section#about {
+    background-color: darkslateblue;
+}
+
+section#about a {
+    color: #E5E9F0;
+}
+
+section#join {
+    background-color: darkorange;
+    color: black;
+}
+
+section#join p {
+    color: #2E3440;
+}
