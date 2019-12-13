@@ -16,6 +16,18 @@ a {
     color: inherit;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    color: inherit;
+}
+
+li:before {
+    content: "- ";
+}
+
 a:visited {
     color: inherit;
 }
@@ -100,18 +112,10 @@ section#join {
     background-color: #fdcc52;
 }
 
+section#past {
+    background-color: #D48E79;
+}
+
 section#contact {
     background-color: #D4ACCC;
-}
-
-section#contact ul {
-    list-style: none;
-}
-
-section#contact ul li:before {
-    content: "- ";
-}
-
-section#next {
-    background-color: #E09055;
 }
