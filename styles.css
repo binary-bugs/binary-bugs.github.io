@@ -86,3 +86,20 @@ section#join {
 section#join p {
     color: #2E3440;
 }
+
+section#contact {
+    background-color: #D4ACCC;
+    color: black;
+}
+
+section#contact ul {
+    color: #2E3440;
+}
+
+section#contact ul {
+    list-style: none;
+}
+
+section#contact ul li:before {
+    content: "- ";
+}
