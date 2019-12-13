@@ -103,3 +103,7 @@ section#contact ul {
 section#contact ul li:before {
     content: "- ";
 }
+
+section#self-image {
+    color: #2E3440;
+}
