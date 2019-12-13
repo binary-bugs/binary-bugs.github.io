@@ -25,11 +25,8 @@ a:visited {
     color: inherit;
 }
 
-div#logo {
-    vertical-align: middle;
-}
-
 nav {
+    color: #2E3440;
     background-color: #ECEFF4;
 }
 
@@ -41,11 +38,15 @@ div#navigation {
     align-items: center;
 }
 
+div#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 div#navigation div {
     padding: 8px;
-    display: flex;
     align-items: center;
-    color: #2E3440;
 }
 
 div#navigation div a {
@@ -66,7 +67,7 @@ div#navigation div a:hover {
 }
 
 header {
-    background: url("/img/binarybug.svg"), linear-gradient(to left, #7867CF	, #FC992F)
+    background: linear-gradient(to left, #7867CF	, #FC992F)
 }
 
 section#about {
