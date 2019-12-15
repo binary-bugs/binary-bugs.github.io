@@ -119,3 +119,8 @@ section#past {
 section#contact {
     background-color: #D4ACCC;
 }
+
+#next-event {
+    background-color: indianred;
+    color: #ECEFF4;
+}
