@@ -66,7 +66,7 @@ nav a {
     text-decoration: none;
 }
 
-div#navigation {
+div.navigation {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -80,17 +80,18 @@ div#logo {
     align-items: center;
 }
 
-div#navigation div {
+div.navigation div {
     padding: 8px;
     align-items: center;
 }
 
-div#navigation div a {
+div.navigation div a {
+    text-decoration: none;
     color: inherit;
     transition: color 0.25s;
 }
 
-div#navigation div a:hover {
+div.navigation div a:hover {
     color: lightslategray;
     transition: color 0.25s;
 }
@@ -125,7 +126,16 @@ section#self-image {
     background-color: #F5A9B8
 }
 
+section#impressum {
+    background-color: lightgrey;
+}
+
 #next-event {
     background-color: indianred;
     color: #ECEFF4;
+}
+
+footer {
+    color: #2E3440;
+    background-color: #ECEFF4;
 }
